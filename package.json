@@ -1,6 +1,6 @@
 {
   "name": "webimgo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Batch image resizing and optimisation CLI tool",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,15 @@
   },
   "keywords": [
     "image optimisation",
+    "image compression",
+    "batch",
+    "terminal",
     "MozJPEG",
-    "CLI",
-    "OptiPNG",
-    "Image resize"
+    "cli",
+    "PNG compression",
+    "JPG compression",
+    "utility",
+    "Image width resize"
   ],
   "author": "Sharun John",
   "license": "MIT",
@@ -27,13 +32,14 @@
     "sharp": "^0.25.2",
     "yargs": "^15.3.1"
   },
-  "homepage": "YOUR GITHUB REPO OR SITE HERE",
+  "homepage": "https://github.com/shaan07/webimgo",
+  "bugs": "https://github.com/shaan07/webimgo/issues",
   "repository": {
     "type": "git",
-    "url": "git+YOUR GITHUB REPOSITORY HERE"
+    "url": "https://github.com/shaan07/webimgo"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=7.6"
   },
   "bin": {
     "webimgo": "./index.js"
