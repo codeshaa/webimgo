@@ -64,6 +64,16 @@ This will resize images width to 1200 pixels for all images with width more than
 
 <br/>
 
+## Updating
+
+To update this NPM package, run below command.
+
+```
+npm update -g webimgo
+```
+
+<br/>
+
 ---
 
 

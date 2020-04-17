@@ -32,15 +32,19 @@ console.log(
 console.log('\nVersion: ' + pkgJson.version + '\n');
 
 const run = async () => {
-  
-  file.scanDir(process.cwd(),/\.(jpe?g|png)$/);
+  try{
+  file.scanDir(process.cwd(),/\.(jpe?g|png)$/)
+  }
+  catch(err){
+    console.log('Error: '+ err)
+  }
   
   if (file.imageFiles.length !=0){
       if (argv.width && Number.isInteger(argv.width) && argv.width > 0){
-        resizer.doResizeAndOptimise(file.imageFiles, argv.width);    
+        resizer.doResizeAndOptimise(file.imageFiles, argv.width)   
       }
       else if (argv.width == null){
-        resizer.runOptimisationOnly(file.imageFiles);
+        resizer.runOptimisationOnly(file.imageFiles)
       }
       else{
         console.log(chalk.yellowBright('Width provided is not a positive integer!'))
