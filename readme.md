@@ -15,8 +15,13 @@ It will replace those images with optimised ones.
 
 You should have Nodejs v7.6 or greater running on your system. Install if you already haven't.
 
-<a href="https://nodejs.org/" target="_blank">Install Nodejs</a>
+Use a <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank">Node Version Manager</a> to install Nodejs and NPM on your system. - (Recommended)
 
+OR
+
+You can use <a href="https://nodejs.org/" target="_blank">Nodejs installer</a>
+
+---
 
 
 ## Installing
@@ -25,15 +30,18 @@ Installing this CLI tool simple and straightforward using NPM.
 Install it as global.
 
 ```
-sudo npm install webimgo -g
-```
-
-or
-
-```
 sudo npm i webimgo -g
 ```
-Enter system password if asked
+Enter system password if prompted
+
+<br/>
+
+If any permission issues on global install, you may try the below code
+
+```
+sudo npm i webimgo -g --unsafe-perm flag
+```
+
 
 <br/>
 
