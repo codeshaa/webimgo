@@ -62,6 +62,8 @@ webimgo -w <width>
 
 Replace `<width>` width with the amount of maximum width in pixels allowed.
 
+![Webimgo default coommand](./assets/webimgo-base.gif)
+
 ### Examples
 
 E.g. To resize images width to 1200 pixels for all images with width more than 1200 pixels and to compress all images, use:
@@ -69,6 +71,8 @@ E.g. To resize images width to 1200 pixels for all images with width more than 1
 webimgo -w 1200
 ``` 
 This will resize images width to 1200 pixels for all images with width more than 1200 pixels and compress all images.
+
+![Webimgo width coommand](./assets/webimgo-width.gif)
 
 <br/>
 
