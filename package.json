@@ -32,7 +32,7 @@
     "imagemin": "^7.0.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
-    "sharp": "^0.25.2",
+    "sharp": "^0.30.5",
     "yargs": "^15.3.1"
   },
   "homepage": "https://github.com/shaan07/webimgo",
